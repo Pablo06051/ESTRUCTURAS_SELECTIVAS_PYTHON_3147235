@@ -1,6 +1,6 @@
-temperatura = 80
+tem = int(input("ingrese la temperatura del motor: " ""))
 
-if temperatura > 80:
+if tem > 80:
     print("motor apagado")
-elif temperatura <= 80:
+elif tem <= 80:
     print("motor encendido")
